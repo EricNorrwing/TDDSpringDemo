@@ -22,7 +22,7 @@ public class ProductController {
             Map.entry(6, new Product(6, "Penna", 5)),
             Map.entry(7, new Product(7, "Sko", 200)),
             Map.entry(8, new Product(8, "Katt", 9999)),
-            Map.entry(10, new Product(8, "Hund", 2))
+            Map.entry(9, new Product(9, "Hund", 2))
     );
 
 
