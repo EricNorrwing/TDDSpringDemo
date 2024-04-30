@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="utf-8">
+<head>
+    <title>Products page</title>
+</head>
+<body>
+<h1>Products!</h1>
+
+<ul>
+    <li th:each="product : ${productsMap}">
+        ID: <span th:text="${product.key}"></span>,
+        name: <span th:text="${product.value.getName()}"></span>,
+        price: <span th:text="${product.value.getPrice()}"></span>
+    </li>
+</ul>
+</body>
+</html>
